@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DOlist - BAckend-1</title>
+    <style>
+    body{
+        background-color: aqua;
+    }
+    header{
+        text-align: center;
+    }
+    section{
+        background-color: white;
+        text-align: center;
+        margin-left: 32%;
+        margin-right: 32%;
+        
+    }
+    li{
+        list-style: none;
+        height: 25px;
+      margin-left: -39px;
+        margin-bottom: 5px;
+        border: 2px solid salmon;
+       
+        
+    }
+    button{
+        background-color: rgba(256,256,256,1);
+        cursor: pointer;
+    }
+    img{
+        width: 25px;
+        position: absolute;
+        right: 7px;
+        top: 6px;
+        cursor: pointer;
+        
+    }
+    ul{
+        position:relative;
+        
+        overflow-y: scroll;
+    }
+    </style>
+</head>
+<body>
+    <header>
+    <h3> To do list- back end-1</h3>
+      <input type="text" placeholder="Write something here !..." id="input">
+    <button id="btnadd">Add elemnts!</button>
+<button id="btndelete">Delete!</button>
+<button id="btnreplace">Update!</button></header>
+<section>
+    <ul id="prginal-list">
+        <li id="list-1">
+            Add elemnts here !..
+        </li>
+       <img src="./paris-photo.jpeg" alt="paris-photo" id="img">
+    </ul>
+   
+</section>
+</body>
+<script src="./To-do-list-backend-Js.js" ></script>
+</html>
